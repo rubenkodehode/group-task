@@ -1,0 +1,157 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+
+}
+
+header{
+    background-color: #728C69   ;
+    color: white;
+    /* padding: 20px; */
+    text-align: center;
+    display: flex;
+    margin: 0px;
+}
+
+.header {
+    align-items: flex-start;
+    color: #39FF14  ;
+    height: fit-content;
+    font-size: 10px;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #354A21 ;
+    margin-top: 0px;
+    height: 100px;
+}
+
+.navigation a {
+    color: white;
+    margin:  0 10px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.navigation a:hover{
+    text-decoration: underline;
+}
+
+.about, .menu, .contact{
+    padding: 20px;
+    text-align: center;
+}
+
+.about{
+    background-color: #a9b99f;
+}
+.snav{
+    position: relative;
+    width: 150px;
+}
+.sidenav {
+    width: 160px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #354A21;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+.sidebar-options {
+    margin-top: 20px; /* Add spacing above the checkboxes */
+    padding: 8px; /* Optional, for a cleaner look */
+}
+
+.sidebar-options label {
+    display: block; /* Stack checkboxes vertically */
+    font-size: 18px; /* Slightly smaller font than links */
+    color: #000; /* Text color */
+    margin-bottom: 8px; /* Spacing between checkboxes */
+}
+
+.sidebar-options input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and label text */
+}
+  
+.sidenav a:hover {
+    color: #064579;
+}
+  
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.menu-items{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+.menu-items{
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 200px;
+    text-align: left;
+}
+
+.price{
+    font-weight: bold;
+    color: #6b4e31;
+}
+
+.contact form{
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.contact label{
+    display: block;
+    margin-bottom: 5px; 
+
+}
+
+.contact input, .contact textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #333;
+border-radius: 5px;
+}
+
+.contact button{
+    background-color: #6b4e31;
+    color: white;
+    padding:  10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover{
+    background-color: #553d26;
+}
+
+footer{
+    background-color:#6b4e31;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+
